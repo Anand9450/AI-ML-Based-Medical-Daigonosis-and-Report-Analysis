@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Medical Intelligence System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .hero-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .card {
+            transition: transform 0.3s;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            height: 100%;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #0d6efd;
+        }
+        .navbar {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="/">Medical Intelligence System</a>
+    </div>
+</nav>
+
+<div class="container hero-section">
+    <h1 class="display-4 fw-bold mb-4">Advanced Medical Diagnostics & Assistance</h1>
+    <p class="lead text-muted mb-5">Combine the power of AI for symptom analysis, MRI tumor detection, and 24/7 health support.</p>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card p-4">
+                <div class="card-body text-center">
+                    <div class="card-icon">🩺</div>
+                    <h3 class="card-title">Disease Prediction</h3>
+                    <p class="card-text">Analyze your symptoms to get potential diagnoses and medication recommendations using our SVC model.</p>
+                    <a href="/disease" class="btn btn-primary mt-3">Check Symptoms</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4">
+                <div class="card-body text-center">
+                    <div class="card-icon">🧠</div>
+                    <h3 class="card-title">MRI Analysis</h3>
+                    <p class="card-text">Upload MRI scans for instant brain tumor classification and report analysis.</p>
+                    <a href="/mri" class="btn btn-primary mt-3">Analyze MRI</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-4">
+                <div class="card-body text-center">
+                    <div class="card-icon">🤖</div>
+                    <h3 class="card-title">AI Health Assistant</h3>
+                    <p class="card-text">Chat with our 24/7 AI agent for immediate health guidance and support.</p>
+                    <a href="/chat" class="btn btn-primary mt-3">Start Chat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="mt-auto py-3 bg-light text-center">
+    <div class="container">
+        <span class="text-muted">© 2025 Medical Intelligence System. All rights reserved.</span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

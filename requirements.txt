@@ -1,0 +1,11 @@
+flask
+pandas
+numpy
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+tensorflow
+pillow
+google-generativeai
+python-dotenv
+gunicorn
